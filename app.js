@@ -27,12 +27,13 @@ button.addEventListener("click", (e) => {
   list.style.opacity = "1";
 
   list.innerHTML = `
-    <li>Talabalar: <big>${studentCount.value}</big> ta</li>
-    <li>O'tilishi kerak darslar: <big>${planCount.value}</big> ta</li>
-    <li>Haqiqatda o'tilgan darslar: <big>${lessonCount.value}</big> ta</li>
     <li>Oylik kissaga: <big>${useMoneyFormatter(salary - tax)}</big></li>
     <li>Soliq: <big>${useMoneyFormatter(tax)}</big></li>
     <li>Aslida oylik😎: <big>${useMoneyFormatter(salary)}</big></li>
+    <li>Talabalar: <big>${studentCount.value}</big> ta</li>
+    <li>O'tilishi kerak darslar: <big>${planCount.value}</big> ta</li>
+    <li>Haqiqatda o'tilgan darslar: <big>${lessonCount.value}</big> ta</li>
+    
   `;
 });
 
