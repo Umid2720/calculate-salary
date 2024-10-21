@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oylil hisoblash</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <input required autofocus type="number" placeholder="O'quvchilar soni" id="studentCount">
+            <input required type="number" placeholder="O'tilishi kerak bo'lgan darslar soni" id="planCount">
+            <input required type="number" placeholder="O'qitilgan bo'lgan darslar soni" id="lessonCount">
+            <select>
+                <option value="0.25">25%</option>
+                <option value="0.3">30%</option>
+            </select>
+
+            <div class="btn-wrapper">
+                <button type="submit">Hisoblash</button>
+            </div>
+        </form>
+
+        <ul class="list"></ul>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
