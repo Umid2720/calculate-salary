@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   padding: 20px;
   margin: 20px auto;
@@ -17,10 +23,6 @@ select {
   flex: 1 1 300px;
   border-radius: 4px;
   border: 1px solid #ccc;
-}
-
-select {
-  flex-basis: 322px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -54,11 +56,7 @@ button {
 .list {
   gap: 10px;
   opacity: 0;
-  padding: 0;
   display: flex;
   list-style-type: none;
   flex-direction: column;
-}
-
-.list li {
 }
